@@ -14,11 +14,11 @@ public class App {
 
         // Poliform action with each employee type
         // Show information and depends salary for each type
+        System.out.println("Employee: " + employee.showInformation());
         System.out.println("Employee salary: " + employee.calculateSalary());
-        System.out.println("Employee salary: " + employee.showInformation());
+        System.out.println("Full-time: " + fullTimeEmployee.showInformation());
         System.out.println("Full-time salary: " + fullTimeEmployee.calculateSalary());
-        System.out.println("Full-time salary: " + fullTimeEmployee.showInformation());
+        System.out.println("Hourly: " + hourPayEmployee.showInformation());
         System.out.println("Hourly salary: " + hourPayEmployee.calculateSalary());
-        System.out.println("Hourly salary: " + hourPayEmployee.showInformation());
     }
 }
