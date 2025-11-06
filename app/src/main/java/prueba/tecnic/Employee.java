@@ -46,4 +46,9 @@ public class Employee {
     public float calculateSalary(){
         return 0;
     }
+
+    @Override
+    public String showInformation() {
+        return "Employee [id=" + id + ", name=" + name + ", lastname=" + lastname + ", baseSalary=" + baseSalary + "]";
+    }
 }
