@@ -11,12 +11,12 @@ public class Employee {
     private int id;
     public String name;
     public String lastname;
-    protected float baseSalary;
+    protected double baseSalary;
 
     /**
      * Initiliaze the class
      */
-    public Employee(int id, String name, String lastname, float baseSalary) {
+    public Employee(int id, String name, String lastname, double baseSalary) {
         this.id = id;
         this.name = name;
         this.lastname = lastname;
@@ -43,7 +43,7 @@ public class Employee {
      * Get base salary of employee
      * @return baseSalary
      */
-    public float getBaseSalary() {
+    public double getBaseSalary() {
         return baseSalary;
     }
 
@@ -59,7 +59,7 @@ public class Employee {
         this.lastname = lastname;
     }
 
-    public void setBaseSalary(float baseSalary) {
+    public void setBaseSalary(double baseSalary) {
         this.baseSalary = baseSalary;
     }
 
@@ -67,8 +67,7 @@ public class Employee {
      * Calculta salary for each employee
      * @return baseSalary
      */
-    @Override
-    public float calculateSalary(){
+    public double calculateSalary(){
         return baseSalary;
     }
 
@@ -76,7 +75,6 @@ public class Employee {
      * Show employee information
      * @return all data for employee
      */
-    @Override
     public String showInformation() {
         return "Employee [id=" + id + ", name=" + name + ", lastname=" + lastname + ", baseSalary=" + baseSalary + "]";
     }
