@@ -8,8 +8,8 @@ Este proyecto está desarrollado en **Java** y puede ejecutarse localmente sigui
 
 Asegúrate de tener instalado lo siguiente:
 
-- **Java JDK 17** o superior → [Descargar aquí](https://adoptium.net/)
-- **Git** → [Descargar aquí](https://git-scm.com/downloads)
+- **Java JDK 17** o superior
+- **Git**
 - (Opcional) **Maven** o **Gradle** si el proyecto usa uno de estos gestores de dependencias.
 
 ## Clonar el repositorio
